@@ -1,8 +1,142 @@
 /* IMPOSTAZIONI GENERALI */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  -webkit-text-size-adjust: none;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 .body {
   text-align: center;
   background-image: url(assets/img/sfondo.png);
-  width: 500px;
+  width: 450px;
+  font-family: "Poppins", sans-serif;
 }
 /* HEADER */
 .header {
@@ -19,6 +153,9 @@
 .phead {
   font-size: x-large;
 }
+h1 {
+  font-size: 2em;
+}
 /* MAIN */
 main {
   background-color: white;
@@ -34,10 +171,23 @@ main {
   color: rgb(245, 3, 245);
 }
 .backgray {
-  background-color: grey;
+  background-color: rgb(190, 185, 185);
+  border: 2px black;
+  border-radius: 5px;
+}
+.m20 {
+  margin-inline: 20px;
 }
 /* ELEMENTI NEL MAIN - ARTICLE */
-
+.backgraydiv {
+  background-color: rgb(190, 185, 185);
+  width: 350px;
+  margin-inline: auto;
+}
+.articoli {
+  font-size: 1.5em;
+  text-align: center;
+}
 /* TABELLE */
 
 /* FORM */
@@ -45,3 +195,9 @@ main {
 /* ELEMENTI NELL' ASIDE */
 
 /* FOOTER */
+footer {
+  background-image: linear-gradient(rgb(64, 173, 236), rgb(0, 119, 255));
+  color: white;
+  width: 400px;
+  margin-inline: auto;
+}
