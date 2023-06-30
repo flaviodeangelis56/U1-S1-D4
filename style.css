@@ -137,10 +137,12 @@ body {
   background-image: url(assets/img/sfondo.png);
   width: 450px;
   font-family: "Poppins", sans-serif;
+  font-size: 1.2em;
+  line-height: normal;
 }
 /* HEADER */
 .header {
-  background-image: linear-gradient(rgb(64, 173, 236), rgb(0, 119, 255));
+  background-image: linear-gradient(rgb(64, 173, 236), rgb(7, 76, 122));
   color: white;
   width: 400px;
   margin-inline: auto;
@@ -151,10 +153,11 @@ body {
   padding-top: 20px;
 }
 .phead {
-  font-size: x-large;
+  font-size: large;
 }
 h1 {
-  font-size: 2em;
+  font-size: 1.5em;
+  font-weight: 600;
 }
 /* MAIN */
 main {
@@ -174,6 +177,7 @@ main {
   background-color: rgb(190, 185, 185);
   border: 2px black;
   border-radius: 5px;
+  display: inline-block;
 }
 .m20 {
   margin-inline: 20px;
@@ -183,12 +187,29 @@ main {
   background-color: rgb(190, 185, 185);
   width: 350px;
   margin-inline: auto;
+  padding: 20px;
 }
 .articoli {
   font-size: 1.5em;
   text-align: center;
 }
+.Data {
+  text-align: right;
+}
 /* TABELLE */
+table {
+  border-bottom: solid 1px blue;
+  width: 350px;
+  table-layout: fixed;
+  height: 380px;
+}
+.blu {
+  text-align: center;
+  display: inline-block;
+}
+.grey {
+  background-color: rgb(187, 173, 173);
+}
 
 /* FORM */
 
